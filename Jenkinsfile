@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', credentialsId: 'TOKEN', url: 'git@github.com:RAVITEJA3929/newrepo.git'
+                git branch: 'main', credentialsId: 'TOKEN', url: 'https://github.com/RAVITEJA3929/newrepo.git'
             }
         }
         stage('List Directory') {
